@@ -15,7 +15,7 @@ epoch = 2.1
 passes = ['check_checker']
 
 [repl.analysis.check_checker]
-strict = false
-trusted_sender = true
-trusted_caller = true
-callee_filter = true
+strict = true
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
